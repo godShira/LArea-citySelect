@@ -1,0 +1,76 @@
+.citySelect{
+   width: 100%;
+}
+.citySelect_area{
+    padding: 0 0.28rem;
+    height: 0.92rem;
+    line-height: 0.92rem;
+    box-sizing: border-box;
+    color: #656565;
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    font-size: 0.34rem;
+    margin-top: 0.5rem;
+}
+.citySelect_area i{
+    display: inline-block;
+    min-width: 1.2rem;
+}
+.citySelect_area .content-block{
+    display: inline-block;
+    margin-left: .3rem;
+    width: 70%;
+    line-height: 0.92rem;
+}
+.citySelect_area .content-block input{
+    color: #000000;
+    font-size: 0.34rem;
+    outline: none;
+}
+.gearArea {
+    max-width: 750px;
+    font-size: 12px;
+    font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,"Microsoft YaHei","微软雅黑",sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media screen and (min-width: 751px) {
+    .gearArea {
+        left: 50%;
+        margin-left: -375px;
+
+    }
+}
+.area_btn_box {
+    font-size: 0.34rem;
+    line-height: 2.6em;
+    text-align: center;
+    color: #545454;
+    background-color: #f1f2f4;
+}
+.area_btn.larea_cancel {
+    color: #878787;
+    font-size: 0.34rem;
+}
+.area_btn.larea_finish {
+    color: #20befd;
+    font-size: 0.34rem;
+}
+.area_ctrl {
+    background-color: #ffffff;
+}
+.area_grid {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.area_roll_mask {
+     -webkit-mask: -webkit-gradient(linear, 0% 30%, 0% 0%, from(rgba(222,187,71,1)), to(rgba(36, 142, 36, 0)));
+     -webkit-mask: -webkit-linear-gradient(bottom, rgba(222,187,71,1) 30%, rgba(36, 142, 36, 0));
+}
+.area_roll {
+     -webkit-mask: -webkit-gradient(linear, 0% 30%, 0% 0%, from(rgba(222,187,71,1)), to(rgba(36, 142, 36, 0)));
+     -webkit-mask: -webkit-linear-gradient(top, rgba(222,187,71,1) 30%, rgba(36, 142, 36, 0));
+}
+.area_roll>div {
+    font-size: 0.36rem;
+}

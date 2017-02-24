@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 去除iPhone中默认的input样式 */
+input[type="submit"],input[type="reset"],input[type="button"],input{-webkit-appearance:none; resize: none;font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,"Microsoft YaHei","微软雅黑",sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+}
+/* 取消链接高亮  */
+body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article, 
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);margin:0; padding:0; border:none; }
+/* 设置HTML5元素为块 */
+article, aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+display: block;
+}
+/* 图片自适应 */
+img {
+border: none;display:block;
+max-width: 100%;
+height: auto;
+width:auto\9; /* ie8 */
+-ms-interpolation-mode:bicubic;/*为了照顾ie图片缩放失真*/
+width:100%;
+}
+/* 初始化 */
+body{
+    font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,"Microsoft YaHei","微软雅黑",sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+}
+em,i{font-style:normal;}
+strong,b{font-weight: normal;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul,ol{list-style:none;}
+h1, h2, h3, h4, h5, h6{ font-size:100%;}
+button{outline: none;}
+
+
+.fl{float: left;}
+.fr{float: right;}
+.auto{margin:0 auto;}
+.hide{display:none;}
+.tx_center{text-align: center;}
+
+/*float高度塌陷清除*/
+.clearfix:after {
+    display: block;
+    height: 0;
+    content: '';
+    clear: both;
+}
+
+/*marginTop生效*/
+.befo:before, .afte:after {
+    content: '';
+    display: table;
+}
+
+html{font-size:-webkit-calc(100vw/7.5);font-size:calc(100vw/7.5);}
+.wrap{max-width: 750px;margin:0 auto;}
+body{  background: #f6f6f6; }
+
