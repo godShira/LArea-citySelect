@@ -46,3 +46,5 @@ var area = new LArea();
 ### v2.0.0 省市区联动
 ![image](https://github.com/godkillerdan/LArea-citySelect/blob/master/LArea_citySelect/img/sketch_02.jpg)
 
+代码会持续优化，如果喜欢望赏颗星。
+
