@@ -4,14 +4,14 @@
 纯原生js的移动端城市选择插件，不依赖任何库,演示效果请在移动端或PC浏览器模拟移动端查看效果。
 ##使用方法
 ###载入 CSS 文件
-```html
+```css
 <link href="css/LArea.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="css/reset.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 ```
 
 ###DOM底部载入 JavaScript 文件
-```html
+```javascript
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/province.js"></script>
 <script type="text/javascript" src="js/LArea1.js"></script>
