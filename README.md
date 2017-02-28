@@ -5,7 +5,7 @@
 ##使用方法
 ###载入 CSS 文件
 ```css
-<link href="css/LArea.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/LArea.css" >
 <link rel="stylesheet" type="text/css" href="css/reset.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 ```
